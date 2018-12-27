@@ -19,6 +19,8 @@ var store = new SessionStore({
 
 var app = express();
 
+
+console.log('demo')
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
